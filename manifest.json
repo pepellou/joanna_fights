@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+
+    "name": "Joanna Fights",
+    "description": "Joanna Tries, Joana Fights, but She Never Resigns",
+    "version": "1.0",
+
+    "content_scripts": [{
+        "js": [
+            "jquery.min.js",
+            "jquery-ui.min.js",
+            "extension.js"
+        ],
+        "css": [ "jquery-ui.css" ],
+        "matches": [ "https://lichess.org/*" ],
+        "run_at": "document_end"
+    }]
+}
