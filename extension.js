@@ -1,3 +1,11 @@
+var hideResignbutton = function() {
+    $('button.resign-confirm').hide();
+};
+
 $(function() {
-    $('button.resign-confirm').remove();
+    hideResignbutton();
+
+    $("#lichess .lichess_ground").on('DOMSubtreeModified', ".control.icons", function() {
+        hideResignbutton();
+    });
 });

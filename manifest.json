@@ -3,7 +3,7 @@
 
     "name": "Joanna Fights",
     "description": "Joanna Tries, Joanna Fights, but She Never Resigns",
-    "version": "1.1",
+    "version": "1.2",
 
     "content_scripts": [{
         "js": [
