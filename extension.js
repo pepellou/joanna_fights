@@ -1,5 +1,5 @@
 var hideResignbutton = function() {
-    $('button.resign-confirm').hide();
+    $('button.resign').hide();
 };
 
 $(function() {
